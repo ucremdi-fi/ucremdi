@@ -2,18 +2,30 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <title>UCREMDI - Unidad de Creación de Materiales Docentes</title>
+    <title>UCREMDI | Facultad de Ingeniería</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
-    <!-- Bootstrap -->
+    
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
 
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+<!-- Barra Institucional -->
+<div class="top-bar">
+    <div class="container d-flex justify-content-between align-items-center">
+        <div class="d-flex align-items-center gap-3">
+            <img src="img/escudo_unam.png" height="90">
+            <img src="img/escudo_fi.png" height="90">
+            <img src="img/escudo_ucremdi.png" height="90">
+        </div>
+        <span class="text-white">Unidad de Creación de Materiales Docentes para Ingeniería - UCREMDI</span>
+    </div>
+</div>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
   <div class="container">
-    <a class="navbar-brand" href="#">UCREMDI</a>
+    <a class="navbar-brand fw-bold" href="#">UCREMDI</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -21,59 +33,320 @@
       <ul class="navbar-nav ms-auto">
         <li class="nav-item"><a class="nav-link" href="#inicio">Inicio</a></li>
         <li class="nav-item"><a class="nav-link" href="#nosotros">Nosotros</a></li>
+        <li class="nav-item"><a class="nav-link" href="#objetivo">Objetivo</a></li>
         <li class="nav-item"><a class="nav-link" href="#proyectos">Proyectos</a></li>
-        <li class="nav-item"><a class="nav-link" href="#repositorio">Repositorio</a></li>
         <li class="nav-item"><a class="nav-link" href="#equipo">Equipo</a></li>
-        <li class="nav-item"><a class="nav-link" href="#contacto">Contacto</a></li>
+        <li class="nav-item"><a class="nav-link" href="#aviso">Aviso de Privacidad</a></li>
       </ul>
     </div>
   </div>
 </nav>
 
-<section id="inicio" class="vh-100 d-flex align-items-center text-center bg-light">
-  <div class="container">
-    <h1 class="display-4">Unidad de Creación de Materiales Docentes</h1>
-    <p class="lead">Innovación educativa para la Ingeniería</p>
-  </div>
+<!-- Hero -->
+<section id="inicio" class="hero text-center text-white d-flex align-items-center">
+    <div class="container">
+        <h1 class="display-4 fw-bold">UCREMDI</h1>
+        <p class="lead">Innovación, producción y gestión de materiales docentes para Ingeniería</p>
+    </div>
 </section>
 
-<section id="nosotros" class="py-5">
-  <div class="container">
-    <h2>¿Qué es UCREMDI?</h2>
-    <p>Proyecto enfocado en la creación, gestión y difusión de materiales docentes para Ingeniería.</p>
-  </div>
+<!-- Nosotros -->
+<section id="nosotros" class="section-light">
+    <div class="container">
+        <h2 class="section-title">Sobre el Proyecto</h2>
+        <p>
+            La Universidad Nacional Autónoma de México, a través del Programa de Apoyo a Proyectos para
+            Innovar y Mejorar la Educación (PAPIME), promueve el fortalecimiento sistemático de los procesos
+            de enseñanza y aprendizaje en los programas de licenciatura, en sus diversas modalidades de
+            impartición, así como el impulso a estrategias de innovación educativa orientadas a mejorar la
+            calidad académica (DGAPA, PAPIME, UNAM, 2023). En este marco institucional, el presente
+            proyecto se desarrolló en el ámbito de la Facultad de Ingeniería, atendiendo a las necesidades
+            específicas de su comunidad estudiantil y docente.
+            El proyecto partió de la identificación y análisis de asignaturas caracterizadas por un alto grado de
+            abstracción conceptual y complejidad técnica, en las cuales el uso de recursos didácticos
+            tradicionales resulta insuficiente para favorecer la apropiación significativa de los contenidos. En
+            respuesta a esta problemática, se planteó el diseño, desarrollo e implementación de materiales
+            didácticos especializados, con énfasis en recursos visuales y estructurados, orientados a temas
+            específicos contemplados en los programas de estudio vigentes.
+            En este contexto, UCREMDI (Unidad de Creación de Materiales Docentes para Ingeniería) se
+            consolida como una estrategia institucional de innovación educativa, cuyo objetivo central es
+            sistematizar los procesos de creación, actualización y difusión de materiales didácticos dirigidos a
+            la enseñanza de la ingeniería. Asimismo, el Proyecto 2B se concibe como el componente operativo y
+            metodológico de UCREMDI, mediante el cual se instrumentan acciones concretas para la producción,
+            validación y organización de dichos materiales, así como para la incorporación de estudiantes y
+            docentes en un esquema colaborativo e interdisciplinario. De esta manera, el Proyecto 2B permite la
+            materialización de los objetivos académicos de UCREMDI, asegurando la pertinencia pedagógica,
+            la coherencia curricular y la viabilidad de los recursos generados.
+        </p>
+    </div>
 </section>
 
-<section id="proyectos" class="py-5 bg-light">
-  <div class="container">
-    <h2>Proyectos</h2>
-    <p>Descripción de proyectos activos.</p>
-  </div>
+<!-- Objetivo -->
+<section id="objetivo" class="section-light">
+    <div class="container">
+        <h2 class="section-title">Objetivo del Proyecto</h2>
+        <p>
+            El objetivo general del proyecto UCREMDI es crear y consolidar una unidad institucional
+            especializada en la producción, organización y difusión de materiales didácticos innovadores,
+            orientados a fortalecer los procesos de enseñanza y aprendizaje en las asignaturas de ingeniería
+            impartidas en la Facultad de Ingeniería.
+            Esta unidad tiene como finalidad incorporar enfoques pedagógicos contemporáneos y herramientas
+            tecnológicas emergentes en el diseño de recursos educativos, asegurando su pertinencia curricular,
+            calidad técnica y accesibilidad, así como su alineación con los programas de estudio vigentes. De esta
+            manera, UCREMDI contribuye a la mejora continua de la práctica docente, al tiempo que promueve
+            la actualización permanente de los contenidos y metodologías utilizadas en la formación de ingenieras
+            e ingenieros.
+        </p>
+    </div>
 </section>
 
-<section id="repositorio" class="py-5">
-  <div class="container">
-    <h2>Repositorio</h2>
-    <p>Listado de materiales disponibles.</p>
-  </div>
+
+<!-- Proyectos -->
+<section id="proyectos" class="section-gray">
+    <div class="container">
+        <h2 class="section-title">Proyectos Estratégicos</h2>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card shadow-sm p-3">
+                    <h5>Repositorio Digital</h5>
+                    <p>
+                        Con el propósito de garantizar la organización, preservación y consulta sistemática de los
+                        materiales docentes generados en el marco del proyecto PAPIME–UCREMDI, se llevó a cabo el
+                        desarrollo de un sistema repositorio institucional orientado a la gestión integral de recursos
+                        educativos digitales.
+                        El sistema fue concebido como una plataforma web de uso interno, diseñada para permitir la
+                        catalogación, clasificación, almacenamiento y recuperación de materiales docentes, tales como
+                        videos educativos, manuales, guías, recursos multimedia y documentación pedagógica. Asimismo, se
+                        consideró su posible articulación con repositorios existentes de la Facultad de Ingeniería, con el fin de
+                        asegurar su compatibilidad y escalabilidad a futuro.
+                        Durante esta etapa se realizó el análisis de requerimientos funcionales y técnicos, el diseño de la
+                        arquitectura del sistema y la implementación de un prototipo funcional en versión beta, el cual
+                        permite visualizar las principales funcionalidades del repositorio. Como complemento, se elaboró
+                        documentación técnica y de usuario, así como un video demostrativo que expone el flujo general de
+                        uso de la plataforma. 
+                    </p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card shadow-sm p-3">
+                    <h5>Producción Multimedia</h5>
+                    <p>
+                        Como parte de las acciones orientadas a la innovación en la producción de materiales audiovisuales
+                        para la docencia, se desarrollaron contenidos educativos correspondientes a las siguientes asignaturas
+                        y espacios académicos:
+                        • Clase de Ecuaciones Diferenciales, impartida por la Dra. Evelyn.
+                        • Clase de Física Experimental: Óptica, impartida por el Mtro. Villalobos.
+                        • Producción de material fotográfico institucional asociado a Justina y al CROFI.
+                        El objetivo central de esta actividad fue diseñar y producir clases audiovisuales que superaran el
+                        modelo tradicional de “pizarrón y exposición”, incorporando elementos visuales, narrativos y
+                        experimentales que favorezcan la comprensión de los contenidos y mejoren la experiencia de
+                        aprendizaje del estudiantado.
+                        Para ello, las y los docentes participaron activamente en la elaboración de guiones técnicos y
+                        storyboards, los cuales sirvieron como base para la grabación, producción y postproducción de los
+                        videos. Los materiales finales incluyen subtítulos, créditos institucionales y versiones adaptadas para su
+                        posible difusión en medios institucionales y redes académicas. De manera complementaria, se integró
+                        una fotogalería destinada a fortalecer la fototeca institucional de la Facultad de Ingeniería.
+                    </p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card shadow-sm p-3">
+                    <h5>Innovación Educativa</h5>
+                    <p>
+                        Con el fin de fortalecer las competencias digitales y pedagógicas del personal docente, se diseñaron
+                        tres cursos autogestivos enfocados en el uso de herramientas digitales aplicadas a la planeación y
+                        producción de materiales educativos.
+                        El Curso 1: “Creación visual de materiales educativos con Canva”, con una duración sugerida de 8
+                        horas autogestivas, tuvo como objetivo capacitar a las y los docentes en el diseño visual de
+                        presentaciones, infografías y materiales didácticos atractivos y funcionales para el aula.
+                        El Curso 2: “Organización del conocimiento con NotebookLM (Google)”, con una duración
+                        sugerida de 6 horas autogestivas, se orientó a enseñar el uso de esta herramienta como asistente para
+                        el análisis de información, síntesis de contenidos y apoyo a la planeación académica, integrando
+                        prácticas de organización del conocimiento.
+                        El Curso 3: “Creación de contenidos interactivos con Genially”, con una duración sugerida de 8
+                        horas autogestivas, tuvo como propósito promover el uso de recursos interactivos y gamificados
+                        mediante el diseño de presentaciones dinámicas, mapas conceptuales interactivos y materiales
+                        multimedia.
+                        La definición de la plataforma institucional para la implementación de estos cursos quedó sujeta a
+                        evaluación posterior. Como producto complementario, se elaboraron cápsulas educativas y manuales
+                        técnicos, los cuales podrán ser integrados al repositorio UCREMDI para su consulta permanente.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
 </section>
 
-<section id="equipo" class="py-5 bg-light">
-  <div class="container">
-    <h2>Equipo</h2>
-    <p>Integrantes del proyecto.</p>
-  </div>
+<!-- Equipo General -->
+<section id="equipo" class="section-light">
+    <div class="container">
+
+        <!-- ========================= -->
+        <!-- Académicos Participantes -->
+        <!-- ========================= -->
+
+        <h2 class="section-title text-center">Académicos Participantes</h2>
+        <div class="row text-center mb-5">
+
+            <!-- 6 espacios -->
+            <!-- Repite estructura cambiando datos -->
+
+            <div class="col-md-4 col-lg-4 mb-4">
+                <div class="team-card">
+                    <img src="img/academicos/academico1.jpg" class="team-img mb-3">
+                    <h5>Dr. Nombre Apellido</h5>
+                    <p class="role">Director del Proyecto</p>
+                </div>
+            </div>
+
+            <div class="col-md-4 col-lg-4 mb-4">
+                <div class="team-card">
+                    <img src="img/academicos/academico2.jpg" class="team-img mb-3">
+                    <h5>Dra. Nombre Apellido</h5>
+                    <p class="role">Responsable Académico</p>
+                </div>
+            </div>
+
+            <div class="col-md-4 col-lg-4 mb-4">
+                <div class="team-card">
+                    <img src="img/academicos/academico3.jpg" class="team-img mb-3">
+                    <h5>Ing. Nombre Apellido</h5>
+                    <p class="role">Coordinación Técnica</p>
+                </div>
+            </div>
+
+            <div class="col-md-4 col-lg-4 mb-4">
+                <div class="team-card">
+                    <img src="img/academicos/academico4.jpg" class="team-img mb-3">
+                    <h5>Dr. Nombre Apellido</h5>
+                    <p class="role">Investigador Asociado</p>
+                </div>
+            </div>
+
+            <div class="col-md-4 col-lg-4 mb-4">
+                <div class="team-card">
+                    <img src="img/academicos/academico5.jpg" class="team-img mb-3">
+                    <h5>Dra. Nombre Apellido</h5>
+                    <p class="role">Asesor Metodológico</p>
+                </div>
+            </div>
+
+            <div class="col-md-4 col-lg-4 mb-4">
+                <div class="team-card">
+                    <img src="img/academicos/academico6.jpg" class="team-img mb-3">
+                    <h5>Ing. Nombre Apellido</h5>
+                    <p class="role">Colaborador Académico</p>
+                </div>
+            </div>
+
+        </div>
+
+
+        <!-- ========================= -->
+        <!-- Equipo de Trabajo -->
+        <!-- ========================= -->
+
+        <h2 class="section-title text-center mt-5">Equipo de Trabajo</h2>
+
+        <div class="row text-center">
+
+            <!-- 12 espacios -->
+            <!-- Cambia nombres y fotos -->
+
+            <!-- Fila automática de 4 por fila -->
+            
+            <!-- Repite esta estructura 12 veces -->
+
+            <div class="col-md-3 col-lg-3 mb-4">
+                <div class="team-card-small">
+                    <img src="img/equipo/equipo1.jpg" class="team-img-small mb-2">
+                    <h6>Nombre1 Apellido</h6>
+                    <p class="role-small">Desarrollo Web</p>
+                </div>
+            </div>
+
+            <div class="col-md-3 col-lg-3 mb-4">
+                <div class="team-card-small">
+                    <img src="img/equipo/equipo1.jpg" class="team-img-small mb-2">
+                    <h6>Nombre2 Apellido</h6>
+                    <p class="role-small">Desarrollo Web</p>
+                </div>
+            </div>
+
+            <div class="col-md-3 col-lg-3 mb-4">
+                <div class="team-card-small">
+                    <img src="img/equipo/equipo1.jpg" class="team-img-small mb-2">
+                    <h6>Nombre3 Apellido</h6>
+                    <p class="role-small">Desarrollo Web</p>
+                </div>
+            </div>
+
+            <div class="col-md-3 col-lg-3 mb-4">
+                <div class="team-card-small">
+                    <img src="img/equipo/equipo1.jpg" class="team-img-small mb-2">
+                    <h6>Nombre4 Apellido</h6>
+                    <p class="role-small">Desarrollo Web</p>
+                </div>
+            </div>
+
+            <div class="col-md-3 col-lg-3 mb-4">
+                <div class="team-card-small">
+                    <img src="img/equipo/equipo1.jpg" class="team-img-small mb-2">
+                    <h6>Nombre5 Apellido</h6>
+                    <p class="role-small">Desarrollo Web</p>
+                </div>
+            </div>
+
+            <div class="col-md-3 col-lg-3 mb-4">
+                <div class="team-card-small">
+                    <img src="img/equipo/equipo1.jpg" class="team-img-small mb-2">
+                    <h6>Nombre6 Apellido</h6>
+                    <p class="role-small">Desarrollo Web</p>
+                </div>
+            </div>
+
+            <div class="col-md-3 col-lg-3 mb-4">
+                <div class="team-card-small">
+                    <img src="img/equipo/equipo1.jpg" class="team-img-small mb-2">
+                    <h6>Nombre7 Apellido</h6>
+                    <p class="role-small">Desarrollo Web</p>
+                </div>
+            </div>
+
+            <div class="col-md-3 col-lg-3 mb-4">
+                <div class="team-card-small">
+                    <img src="img/equipo/equipo1.jpg" class="team-img-small mb-2">
+                    <h6>Nombre8 Apellido</h6>
+                    <p class="role-small">Desarrollo Web</p>
+                </div>
+            </div>
+
+
+            <!-- Duplica hasta equipo12.jpg -->
+
+        </div>
+
+    </div>
 </section>
 
-<section id="contacto" class="py-5">
-  <div class="container">
-    <h2>Contacto</h2>
-    <p>Correo institucional y datos.</p>
-  </div>
+<!-- Aviso de Privacidad -->
+<section id="aviso" class="section-gray">
+    <div class="container">
+        <h2 class="section-title">Aviso de Privacidad</h2>
+        <p>
+            Los datos personales recabados serán utilizados exclusivamente para fines
+            académicos y administrativos relacionados con el proyecto UCREMDI,
+            conforme a la normatividad universitaria vigente.
+        </p>
+    </div>
 </section>
 
-<footer class="bg-dark text-white text-center p-3">
-    © 2026 UCREMDI - Facultad de Ingeniería
+<!-- Footer -->
+<footer class="footer text-center text-white">
+    <div class="container">
+        <p>© 2026 UCREMDI | Facultad de Ingeniería</p>
+        <p>Universidad Nacional Autónoma de México</p>
+    </div>
 </footer>
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
