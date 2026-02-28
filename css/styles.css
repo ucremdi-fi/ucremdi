@@ -120,3 +120,60 @@ body {
     transform: translateY(-6px);
     box-shadow: 0 12px 25px rgba(0,0,0,0.15);
 }
+
+.objetivo-box {
+    border: 3px solid #8B0000; /* rojo institucional */
+    border-radius: 8px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+}
+
+.accordion-button {
+    background-color: #ffffff;
+    border-left: 5px solid #8B0000;
+}
+
+.accordion-button:not(.collapsed) {
+    background-color: #f8f8f8;
+    color: #8B0000;
+    box-shadow: none;
+}
+
+.accordion-body {
+    border-top: 2px solid #8B0000;
+}
+
+
+.proyecto-card {
+    background: #ffffff;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 6px 18px rgba(0,0,0,0.08);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border-top: 6px solid #8B0000;
+}
+
+.proyecto-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 12px 25px rgba(0,0,0,0.15);
+}
+
+.proyecto-img img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.proyecto-body {
+    padding: 20px;
+}
+
+.proyecto-body h5 {
+    color: #8B0000;
+    font-weight: 600;
+}
+
+.texto-justificado {
+    text-align: justify;
+    line-height: 1.7;
+}
