@@ -89,3 +89,34 @@ body {
     border-top: 3px solid #8B0000;
     box-shadow: 0 3px 10px rgba(0,0,0,0.07);
 }
+
+/* Para justificar textos*/
+.text-justify {
+    text-align: justify;
+    line-height: 1.8;
+}
+
+
+/* ============================= */
+/* Impacto Institucional Cards  */
+/* ============================= */
+
+.impact-card {
+    background: #ffffff;
+    padding: 30px;
+    border-top: 5px solid #8B0000;
+    box-shadow: 0 6px 18px rgba(0,0,0,0.08);
+    transition: all 0.3s ease;
+    text-align: justify;
+}
+
+.impact-card h5 {
+    color: #8B0000;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.impact-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 12px 25px rgba(0,0,0,0.15);
+}
