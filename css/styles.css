@@ -256,3 +256,42 @@ body {
     padding: 3px;
     border-radius: 4px;
 }
+
+.aviso-card {
+    background: #ffffff;
+    border-top: 6px solid #8B0000;
+    padding: 30px;
+    max-width: 600px;
+    border-radius: 10px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+    cursor: pointer;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.aviso-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 15px 30px rgba(0,0,0,0.15);
+}
+
+.aviso-card h4 {
+    color: #8B0000;
+    font-weight: 600;
+}
+
+.licencia-texto {
+    font-size: 0.8rem;   /* más pequeño */
+    font-weight: 500;    /* menos pesado que bold */
+    line-height: 1.4;
+}
+
+.licencia-link {
+    text-decoration: none;
+    color: inherit;
+    display: inline-block;
+    transition: opacity 0.3s ease, transform 0.2s ease;
+}
+
+.licencia-link:hover {
+    opacity: 0.85;
+    transform: translateY(-2px);
+}
