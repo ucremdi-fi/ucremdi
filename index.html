@@ -1,37 +1,49 @@
+<!-- ========================================================= -->
+<!-- PROYECTO: UCREMDI – Facultad de Ingeniería, UNAM        -->
+<!-- DESARROLLADOR: Ing. Emanuel López Hernández              -->
+<!-- COLABORADORES: Ana Laura Mendoza Millán, Ricardo Ávila  -->
+<!-- VERSIÓN: 1.2                                             -->
+<!-- FECHA: 03 de marzo de 2026                               -->
+<!-- DESCRIPCIÓN: Portal institucional oficial del proyecto   -->
+<!-- ========================================================= -->
+
 <!DOCTYPE html>
 <html lang="es">
 <head>
+    <!-- ========== META CONFIGURACIÓN ========== -->
     <meta charset="UTF-8">
-    <title>UCREMDI | Facultad de Ingeniería</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    
+    <title>UCREMDI | Facultad de Ingeniería</title>
+
+    <!-- ========== BOOTSTRAP & ICONOS ========== -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- ========== ESTILOS PROPIOS ========== -->
     <link rel="stylesheet" href="css/styles.css">
 </head>
+
 <body>
 
-<!-- Barra Institucional -->
-<div class="top-bar py-3" style="background-color:#8B0000;">
+<!-- ========================================================= -->
+<!-- BARRA INSTITUCIONAL                                       -->
+<!-- ========================================================= -->
+<header class="top-bar py-3">
     <div class="container">
 
-        <div class="d-flex align-items-center gap-4">
+        <div class="d-flex flex-column flex-lg-row align-items-center gap-4">
 
-            <!-- Escudos -->
-            <div class="d-flex align-items-center gap-3">
-                <img src="img/escudo_unam.png" height="80" alt="Escudo UNAM">
-                <img src="img/escudo_fi.png" height="80" alt="Escudo Facultad de Ingeniería">
-                <img src="img/escudo_ucremdi.png" height="80" alt="Escudo UCREMDI">
+            <!-- Escudos institucionales -->
+            <div class="d-flex align-items-center gap-3 flex-wrap justify-content-center">
+                <img src="img/escudo_unam.png" class="img-fluid escudo" alt="Escudo UNAM">
+                <img src="img/escudo_fi.png" class="img-fluid escudo" alt="Escudo Facultad de Ingeniería">
+                <img src="img/escudo_ucremdi.png" class="img-fluid escudo" alt="Escudo UCREMDI">
             </div>
 
-            <!-- Texto Institucional -->
-            <div class="text-white">
-                <h4 class="mb-0 fw-bold">
-                    Universidad Nacional Autónoma de México
-                </h4>
-                <h5 class="mb-0">
-                    Facultad de Ingeniería
-                </h5>
+            <!-- Texto institucional -->
+            <div class="text-white text-center text-lg-start">
+                <h4 class="mb-0 fw-bold">Universidad Nacional Autónoma de México</h4>
+                <h5 class="mb-0">Facultad de Ingeniería</h5>
                 <p class="mb-0 fw-semibold">
                     Unidad de Creación de Materiales Docentes para Ingeniería – UCREMDI
                 </p>
@@ -40,7 +52,7 @@
         </div>
 
     </div>
-</div>
+</header>
 
 <!-- Navbar -->
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
@@ -681,10 +693,27 @@
             © 2026 UCREMDI · Facultad de Ingeniería · Universidad Nacional Autónoma de México
         </div>
     </div>
+
+    <div class="text-center mt-3">
+        <p class="ultima-actualizacion mb-0">
+            Última actualización: <span id="fecha-actualizacion"></span>
+        </p>
+    </div>
+
 </footer>
 
-
-
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+        const fecha = new Date(document.lastModified);
+        const opciones = { year: 'numeric', month: 'long', day: 'numeric' };
+        document.getElementById("fecha-actualizacion").textContent =
+            fecha.toLocaleDateString('es-MX', opciones);
+    });
+</script>
+
+
+
 </body>
 </html>

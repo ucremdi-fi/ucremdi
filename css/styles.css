@@ -295,3 +295,17 @@ body {
     opacity: 0.85;
     transform: translateY(-2px);
 }
+
+.ultima-actualizacion {
+    font-size: 0.75rem;
+    color: #6c757d;
+    font-style: italic;
+}
+
+.top-bar {
+    background-color: #8B0000;
+}
+
+.escudo {
+    max-height: 80px;
+}
